@@ -10,7 +10,7 @@ NotificationGui.Name = "NotificationSystem"
 NotificationGui.Parent = PlayerGui
 NotificationGui.ResetOnSpawn = false
 
--- PLAY SOUND BY HANN.SXHTR
+-- PLAY SOUND BY FAYINTX
 local SoundService = game:GetService("SoundService")
 local function playSound(soundId)
     local sound = Instance.new("Sound")
@@ -52,7 +52,7 @@ local function createNotification(title, content, duration)
 
     -- Sky Blue Stroke
     local stroke = Instance.new("UIStroke")
-    stroke.Color = Color3.fromRGB(70, 130, 255) -- Sky Blue
+    stroke.Color = Color3.fromRGB(170, 0, 25) -- Sky Blue
     stroke.Thickness = 2
     stroke.Transparency = 0
     stroke.Parent = notificationFrame
